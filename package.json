@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-job-change-tracker",
+  "version": "1.0.0",
+  "description": "MCP server for Job Change Tracker. Send the contacts in your CRM. Get one row back per person: where they work now, their title, when they started, their role history, and whether they left the company you know them at, landed somewhere new, or moved up inside the same company. Every row says how the person was matched, which source the answer came from, and how old that source is. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-job-change-tracker": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "job-change",
+    "champion-tracking",
+    "crm",
+    "contact-data",
+    "apify",
+    "clay",
+    "lead-generation"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/job-change-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-job-change-tracker"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-job-change-tracker"
+}
