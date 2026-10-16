@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-job-change-tracker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Job Change Tracker. Send the contacts in your CRM. Get one row back per person: where they work now, their title, when they started, their role history, and whether they left the company you know them at, landed somewhere new, or moved up inside the same company. Every row says how the person was matched, which source the answer came from, and how old that source is. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
