@@ -203,10 +203,10 @@ server.registerTool(
   {
     title: "Track job change",
     description:
-      "Check whether one contact, or a list of contacts, still works at the company your records hold. Returns one flat, Clay-ready JSON row per person: current employer, title, start month, role history, status (left, landed, promoted, or still there), how the person was matched, the source of the answer, and that source's date, with a namesake check. Runs on data you send (known_history) and on your own Serper or SerpApi, Prospeo, and BounceBan keys passed as inputs; this tool never fetches LinkedIn and holds no key of its own. Provide person_name with company_domain or company_name, or a people list. A run that does not succeed is returned as an error with its run ID. Read-only; requires an APIFY_TOKEN and consumes Apify credits per call.",
+      "Check whether one contact, or a list of contacts, still works at the company your records hold. Returns one flat, Clay-ready JSON row per person: current employer, title, start month, role history, status (left, landed, promoted, or still there), how the person was matched, the source of the answer, and that source's date, with a namesake check. Runs on data you send (known_history) and on your own Serper or SerpApi, Prospeo, and BounceBan keys passed as inputs; this tool never fetches LinkedIn and holds no key of its own. Provide person_name with company_domain or company_name, or a people list. A run that does not succeed is returned as an error with its run ID. Reads public data and writes nothing; requires an APIFY_TOKEN and consumes Apify credits per call.",
     annotations: {
       title: "Track job change",
-      readOnlyHint: true,
+      readOnlyHint: false,
       destructiveHint: false,
       idempotentHint: true,
       openWorldHint: true,
