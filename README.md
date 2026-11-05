@@ -4,7 +4,7 @@
 
 <a href="https://mcprush.com/to/job-change-tracker-mcp?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/job-change-tracker-mcp/card.svg" alt="Job Change Tracker MCP server" /></a>
 
-An MCP server for the Mamba Labs Job Change Tracker actor on Apify. Send the contacts in your CRM. Get one row back per person: where they work now, their title, when they started, their role history, and whether they left the company you know them at, landed somewhere new, or moved up inside the same company. Every row says how the person was matched, which source the answer came from, and how old that source is.
+An MCP server for the Mamba Labs [CRM Contact Job Change Checker](https://apify.com/mambalabs/job-change-tracker) actor on Apify. Send the contacts in your CRM. Get one row back per person: where they work now, their title, when they started, their role history, and whether they left the company you know them at, landed somewhere new, or moved up inside the same company. Every row says how the person was matched, which source the answer came from, and how old that source is.
 
 ## What's Inside
 
